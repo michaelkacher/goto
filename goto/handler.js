@@ -19,7 +19,7 @@ module.exports = (event, context) => {
     if(!redirect) {
         return context
             .status(400)
-            .fail("Unknown short URLzzabc");
+            .fail("Unknown short URLzzabcd");
     }
 
     /* 302 Moved Temporarily
